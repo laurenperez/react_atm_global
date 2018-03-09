@@ -87,14 +87,12 @@ class App extends Component {
           balance={this.state.checkingBalance}
           handleWithdrawalClick={this.handleWithdrawalClick}
           handleDepositClick={this.handleDepositClick}
-          transfer={this.state.transferToChecking}
           handleTransferClick={this.handleTransferClick}
         />
         <Account name="Savings"
           balance={this.state.savingsBalance}
           handleWithdrawalClick={this.handleWithdrawalClick}
           handleDepositClick={this.handleDepositClick}
-          transfer={this.state.transferToSavings}
           handleTransferClick={this.handleTransferClick}
         />
         <div className="clear"></div>
